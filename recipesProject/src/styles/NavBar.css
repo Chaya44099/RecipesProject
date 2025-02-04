@@ -1,0 +1,15 @@
+.link {
+  color: #c96b38; 
+  transition: color 0.2s ease-in-out; 
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.link.active-link {
+  color: #FF9900; 
+}
+
+.link:hover {
+  color: #FF9900; 
+  transition: color 0.2s ease-in-out; 
+}
