@@ -1,6 +1,6 @@
 import { Box, Button, Grid2 } from "@mui/material";
 import { useState } from "react"
-import LoggedIn from "./Login";
+import Login from "./Login";
 
 
 
@@ -25,7 +25,7 @@ const LoginButtens = () => {
                   </>
                </Grid2>
             </Box>
-            : <LoggedIn sign={sign} onError={() => setIsLogin(false)} />}
+            : <Login sign={sign} onError={() => setIsLogin(false)} />}
       </>
    )
 }

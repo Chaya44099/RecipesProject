@@ -1,9 +1,8 @@
 import { Box, Button, Modal, TextField } from "@mui/material";
 import { useRef, useState, useContext, FormEvent } from "react";
-import { style } from "./UpdateUser";
+import UpdateUser, { style } from "./UpdateUser";
 import { UserContext } from "./UserReducer";
 import axios from "axios";
-import HomePage from "./UpdateUser";
 
 const Login = ({ sign, onError }: { sign: string, onError: () => void }) => {
 
@@ -65,7 +64,7 @@ const Login = ({ sign, onError }: { sign: string, onError: () => void }) => {
                 </Box>
             </Modal>
 
-            {isLogin && <HomePage />}
+            {isLogin && <UpdateUser />}
 
         </>)
 }

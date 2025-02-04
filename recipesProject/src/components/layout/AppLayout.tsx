@@ -1,8 +1,8 @@
 import { AppBar, Grid2, Toolbar } from "@mui/material";
-import Login from "../user/LoginButtens";
 import NavBar from "./NavBar";
 import '../../styles/AppLayout.css'
 import { Outlet } from "react-router-dom";
+import LoginButtens from "../user/LoginButtens";
 const AppLayout = () => {
     return (<>
      
@@ -12,7 +12,7 @@ const AppLayout = () => {
                     container
                     justifyContent="flex-end"
                     alignItems="center" >
-                    <Login />
+                    <LoginButtens />
                 </Grid2>
                 <Grid2 >
                     <NavBar />
