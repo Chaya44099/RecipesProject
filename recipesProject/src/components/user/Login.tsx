@@ -52,6 +52,8 @@ const Login = ({ sign, onError }: { sign: string, onError: () => void }) => {
             }
         }
     }
+
+    
     return (
         <>
             <Modal open={modal} >
