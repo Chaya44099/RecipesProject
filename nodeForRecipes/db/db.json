@@ -27,6 +27,15 @@
       "lastName": "איזקוב",
       "address": "עמוס 3",
       "phone": "0527144087"
+    },
+    {
+      "id": 1745929840995,
+      "email": "c4@c.c",
+      "password": "ccc",
+      "firstName": "jhv",
+      "lastName": "kjkl",
+      "address": "",
+      "phone": ""
     }
   ],
   "recipes": [
@@ -78,6 +87,21 @@
         "240ml boiling water"
       ],
       "instructions": "Preheat the oven to 175°C (350°F). In a large bowl, mix the flour, sugar, cocoa powder, baking powder, and baking soda. Add the eggs, milk, oil, and vanilla extract, and mix until smooth. Gradually add the boiling water and mix until well combined. Pour the batter into a greased baking pan and bake for 30-35 minutes. Let cool before serving."
+    },
+    {
+      "id": 1745929913816,
+      "title": "nbkb;hkjk",
+      "description": "jbh;",
+      "authorId": "1745929840995",
+      "ingredients": [
+        {
+          "value": "mnjk;oi"
+        },
+        {
+          "value": "njblhu;o"
+        }
+      ],
+      "instructions": "nj;biuh"
     }
   ]
 }
